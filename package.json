@@ -16,7 +16,7 @@
     "postcss": "^8.4.26"
   },
   "devDependencies": {},
-  "scripts": {    
+  "scripts": {
     "build": "yarn run copy:css && sh -c 'esbuild app/javascript/application.js --bundle --sourcemap --outdir=app/assets/builds --external:controllers/application --external:@hotwired/stimulus-loading --external:@popperjs/core'",
     "copy:css": "cp ./app/assets/stylesheets/application.css ./app/assets/builds/application-build.css",
     "copy:images": "cp ./app/assets/images/* ./app/assets/builds/images/",

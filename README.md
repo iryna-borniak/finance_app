@@ -20,6 +20,24 @@
 ```bash
 $ bundle install
 ```
+## 🔹Installing JavaScript packages 
+```bash
+$ yarn
+```
+## 🔹Setting Up the Database
+<ol>
+    <li>
+      <p>Ensure that your command prompt or terminal has administrative privileges.</p>
+      <p>If you're on Windows and VS Code, right-click on the VS Code icon, and select "Run as administrator."</p> 
+    </li>
+    <li>
+
+```bash
+$ rails db:setup
+```
+   </li>
+</ol>
+
 ## 🔹Running the app
 ```bash
 $ rails s
