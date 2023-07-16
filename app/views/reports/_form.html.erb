@@ -1,0 +1,124 @@
+<%= form_with(url: reports_index_path, 
+              method: :get, 
+              class: "col col-md-12 col-lg-10") do |form| %>
+  <div class="row my-3">
+    <%= form.label :start_date, 
+                    "Дата YYYY-MM-DD", 
+                    class: "text-md-end 
+                            col-md-3 
+                            col-form-label" %>
+
+    <div class="col 
+                col-sm-6 
+                col-md-4
+                col-lg-3">
+      <%= form.date_field :start_date, 
+                          value: @start_date, 
+                          required: true, 
+                          class: "form-control" %>
+    </div>
+  </div>
+  
+  <div class="row mb-3">
+    <%= form.label :end_date, 
+                    "Дата YYYY-MM-DD", 
+                    class: "text-md-end 
+                            col-md-3 
+                            col-form-label" %>
+
+    <div class="col 
+                col-sm-6 
+                col-md-4
+                col-lg-3">
+      <%= form.date_field :end_date, 
+                          value: @end_date, 
+                          required: true, 
+                          class: "form-control" %>
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <%= form.label :operation_type_id, 
+                    "Тип операції", 
+                    class: "text-md-end 
+                            col-md-3
+                            col-form-label" %>
+
+    <div class="col 
+                col-sm-6 
+                col-md-4
+                col-lg-3">
+      <%= form.collection_select :operation_type_id, 
+                                  OperationType.all, 
+                                  :id, 
+                                  :name, 
+                                  { include_blank: "<Оберіть тип операції>", selected: @operation_type_id },
+                                  class: "form-select" %>
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <%= form.label :category_id, 
+                    "Категорія", 
+                    class: "text-md-end 
+                            col-md-3
+                            col-form-label" %>
+                    
+    <div class="col 
+                col-sm-6 
+                col-md-4
+                col-lg-3">
+      <%= form.collection_select :category_id, 
+                                  Category.all,
+                                  :id, 
+                                  :name, 
+                                  { include_blank: "<Оберіть категорію>", selected: @category_id },
+                                  class: "form-select" %>
+    </div>
+  </div>
+  
+  <div class="row 
+              justify-content-end 
+              mb-4">
+    <div class="col-md-9">
+      <%= form.submit "Згенерувати", 
+                      class: "btn 
+                              btn-primary 
+                              shadow-sm 
+                              border 
+                              px-4" %>
+
+      <%= link_to "Очистити",        
+                  reports_index_path,
+                  class: "btn 
+                          btn-primary 
+                          shadow-sm 
+                          border 
+                          px-4" %>
+
+      <%= link_to "Графік", 
+                  reports_report_by_category_path(
+                  start_date: @start_date, 
+                  end_date: @end_date, 
+                  operation_type_id: @operation_type_id,
+                  category_id: @category_id), 
+                  class: "btn 
+                          btn-success 
+                          shadow-sm 
+                          border 
+                          px-4" %>
+
+      <%= link_to "По датам", 
+                  reports_report_by_dates_path(
+                  start_date: @start_date, 
+                  end_date: @end_date, 
+                  operation_type_id: @operation_type_id,
+                  category_id: @category_id), 
+                  class: "btn 
+                          btn-danger 
+                          shadow-sm 
+                          border 
+                          px-4" %>
+    </div>
+  </div>
+<% end %>

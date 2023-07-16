@@ -1,0 +1,28 @@
+<table class="table 
+              table-light 
+              table-striped 
+              table-hover 
+              table-bordered 
+              mb-4">
+  <thead>
+    <tr class="align-top">
+      <th class="w-auto">#</th>
+      <th class="custom-w-20">Категорія</th>
+      <th class="custom-w-10">Тип операції</th>
+      <th class="custom-w-10">Сума</th>
+      <th class="custom-w-10">Дата</th>
+      <th class="custom-w-35">Опис</th>
+      <th class="custom-w-12">Управління</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% index = (@operations.current_page - 1) * @operations.limit_value %>
+
+    <% @operations.each do |operation| %>
+      <% index += 1 %>
+
+      <%= render partial: "operation", 
+                 locals: { operation: operation, index: index } %>
+    <% end %>
+  </tbody>
+</table>

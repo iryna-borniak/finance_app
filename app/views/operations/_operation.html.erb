@@ -1,0 +1,36 @@
+  <tr>
+    <td><%= index %></td>
+
+    <td><%= operation.category.name %></td>
+
+    <td><%= operation.operation_type.name %></td>
+
+    <td><%= number_with_precision(operation.amount, precision: 2) %></td>
+
+    <td><%= operation.odate.strftime("%Y-%m-%d") %></td>
+
+    <td><%= operation.description %></td>
+
+    <td>
+      <div class="d-flex">
+        <%= link_to operation_path(operation), 
+                    class: "btn 
+                            btn-light 
+                            shadow-sm 
+                            border 
+                            px-4 
+                            me-2" do %>
+                    <i class="fa-solid fa-pen-to-square"></i>
+        <% end %>
+
+        <%= button_to operation_path(operation), 
+                      method: :delete, 
+                      class: "btn 
+                              btn-light 
+                              border 
+                              shadow-sm px-4" do %>
+                      <i class="fa-solid fa-xmark"></i>
+        <% end %>
+      </div>
+    </td>
+  </tr>

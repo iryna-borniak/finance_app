@@ -1,0 +1,7 @@
+<% if content_for?(:route_link) %>
+  <div class="row mx-2 my-5">
+    <div class="col p-0">
+      <%= yield(:route_link) %>
+    </div>
+  </div>
+<% end %>

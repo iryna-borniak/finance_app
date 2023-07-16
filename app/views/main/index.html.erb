@@ -1,0 +1,73 @@
+<div class="row 
+            row-cols-1 
+            row-cols-sm-2 
+            row-cols-md-3 
+            row-cols-lg-4 
+            justify-content-md-center 
+            g-4 
+            my-5 
+            pb-5">
+  <div class="col">
+    <div class="card shadow">
+      <%= image_tag("operations_img.jpeg", 
+                    class: "card-img-top custom-image", 
+                    alt: "operations") %>
+      <div class="card-img-overlay custom-image-overlay"></div>
+      <div class="card-body d-grid">
+        <h5 class="card-title text-primary-emphasis">Транзакції</h5>
+        <%= link_to operations_path, 
+                    class: "icon-link 
+                            icon-link-hover 
+                            link-primary 
+                            link-underline-primary 
+                            link-underline-opacity-25 
+                            ms-auto" do %>
+          дивитись усі           
+          <i class="bi bi-arrow-right mb-1"></i>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow">
+      <%= image_tag("categories_img.jpeg", 
+                    class: "card-img-top custom-image", 
+                    alt: "categories") %>
+      <div class="card-img-overlay custom-image-overlay"></div>
+      <div class="card-body d-grid">
+        <h5 class="card-title text-primary-emphasis">Категорії</h5>
+        <%= link_to categories_path, 
+                    class: "icon-link 
+                            icon-link-hover 
+                            link-primary 
+                            link-underline-primary 
+                            link-underline-opacity-25 
+                            ms-auto" do %>
+          дивитись усі           
+          <i class="bi bi-arrow-right mb-1"></i>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow">
+      <%= image_tag("reports_img.jpeg", 
+                    class: "card-img-top custom-image", 
+                    alt: "reports") %>
+      <div class="card-img-overlay custom-image-overlay"></div>
+      <div class="card-body d-grid">
+        <h5 class="card-title text-primary-emphasis">Звіти</h5>
+        <%= link_to reports_index_path, 
+                    class: "icon-link 
+                            icon-link-hover 
+                            link-primary 
+                            link-underline-primary 
+                            link-underline-opacity-25 
+                            ms-auto" do %>
+          згенерувати
+          <i class="bi bi-arrow-right mb-1"></i>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

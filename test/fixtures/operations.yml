@@ -1,0 +1,802 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+operation_1:
+  id: 1
+  amount: 100
+  odate: 2023-06-01 00:00:00
+  description: MyString
+  category_id: 1
+  operation_type_id: 1
+  
+
+operation_2:
+  id: 2
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 2
+  operation_type_id: 1 
+
+operation_3:
+  id: 3
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 3
+  operation_type_id: 1
+
+operation_4:
+  id: 4
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 4
+  operation_type_id: 1
+
+operation_5:
+  id: 5
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 5
+  operation_type_id: 1
+
+operation_6:
+  id: 6
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 6
+  operation_type_id: 1
+
+operation_7:
+  id: 7
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 7
+  operation_type_id: 1
+
+operation_8:
+  id: 8
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 8
+  operation_type_id: 1
+
+operation_9:
+  id: 9
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 9
+  operation_type_id: 1
+
+operation_10:
+  id: 10
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 10
+  operation_type_id: 1
+
+operation_11:
+  id: 11
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 1
+  operation_type_id: 1
+
+operation_12:
+  id: 12
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 2
+  operation_type_id: 1
+
+operation_13:
+  id: 13
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 3
+  operation_type_id: 1
+
+operation_14:
+  id: 14
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 4
+  operation_type_id: 1
+
+operation_15:
+  id: 15
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 5
+  operation_type_id: 1
+
+operation_16:
+  id: 16
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 6
+  operation_type_id: 1
+
+operation_17:
+  id: 17
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 7
+  operation_type_id: 1
+
+operation_18:
+  id: 18
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 8
+  operation_type_id: 1
+
+operation_19:
+  id: 19
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 9
+  operation_type_id: 1
+
+operation_20:
+  id: 20
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 10
+  operation_type_id: 1
+
+operation_21:
+  id: 21
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 1
+  operation_type_id: 1
+
+operation_22:
+  id: 22
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 2
+  operation_type_id: 1
+
+operation_23:
+  id: 23
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 3
+  operation_type_id: 1
+
+operation_24:
+  id: 24
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 4
+  operation_type_id: 1
+
+operation_25:
+  id: 25
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 5
+  operation_type_id: 1
+
+operation_26:
+  id: 26
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 6
+  operation_type_id: 1
+
+operation_27:
+  id: 27
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 7
+  operation_type_id: 1
+
+operation_28:
+  id: 28
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 8
+  operation_type_id: 1
+
+operation_29:
+  id: 29
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 9
+  operation_type_id: 1
+
+operation_30:
+  id: 30
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 10
+  operation_type_id: 1 
+
+operation_31:
+  id: 31
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 1
+  operation_type_id: 1
+
+operation_32:
+  id: 32
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 2
+  operation_type_id: 1
+  
+operation_33:
+  id: 33
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 3
+  operation_type_id: 1
+  
+operation_34:
+  id: 34
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 4
+  operation_type_id: 1
+
+operation_35:
+  id: 35
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 5
+  operation_type_id: 1
+
+operation_36:
+  id: 36
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 6
+  operation_type_id: 1
+
+operation_37:
+  id: 37
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 7
+  operation_type_id: 1
+
+operation_38:
+  id: 38
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 8
+  operation_type_id: 1
+
+operation_39:
+  id: 39
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 9
+  operation_type_id: 1
+
+operation_40:
+  id: 40
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 10
+  operation_type_id: 1
+
+operation_41:
+  id: 41
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 1
+  operation_type_id: 1
+
+operation_42:
+  id: 42
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 2
+  operation_type_id: 1
+
+operation_43:
+  id: 43
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 3
+  operation_type_id: 1
+
+operation_44:
+  id: 44
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 4
+  operation_type_id: 1
+
+operation_45:
+  id: 45
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 5
+  operation_type_id: 1
+
+operation_46:
+  id: 46
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 6
+  operation_type_id: 1
+
+operation_47:
+  id: 47
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 7
+  operation_type_id: 1
+
+operation_48:
+  id: 48
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 8
+  operation_type_id: 1
+
+operation_49:
+  id: 49
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 9
+  operation_type_id: 1
+
+operation_50:
+  id: 50
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 10
+  operation_type_id: 1
+
+operation_51:
+  id: 51
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 1
+  operation_type_id: 1
+
+operation_52:
+  id: 52
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 2
+  operation_type_id: 1
+
+operation_53:
+  id: 53
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 3
+  operation_type_id: 1
+
+operation_54:
+  id: 54
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 4
+  operation_type_id: 1
+
+operation_55:
+  id: 55
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 5
+  operation_type_id: 1
+
+operation_56:
+  id: 56
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 6
+  operation_type_id: 1
+
+operation_57:
+  id: 57
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 7
+  operation_type_id: 1
+
+operation_58:
+  id: 58
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 8
+  operation_type_id: 1
+
+operation_59:
+  id: 59
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 9
+  operation_type_id: 1
+
+operation_60:
+  id: 60
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 10
+  operation_type_id: 1
+
+operation_61:
+  id: 61
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 1
+  operation_type_id: 1
+
+operation_62:
+  id: 62
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 2
+  operation_type_id: 1
+
+operation_63:
+  id: 63
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 3
+  operation_type_id: 1
+
+operation_64:
+  id: 64
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 4
+  operation_type_id: 1
+
+operation_65:
+  id: 65
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 5
+  operation_type_id: 1
+
+operation_66:
+  id: 66
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 6
+  operation_type_id: 1
+
+operation_67:
+  id: 67
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 7
+  operation_type_id: 1
+
+operation_68:
+  id: 68
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 8
+  operation_type_id: 1
+
+operation_69:
+  id: 69
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 9
+  operation_type_id: 1
+
+operation_70:
+  id: 70
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 10
+  operation_type_id: 1
+
+operation_71:
+  id: 71
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 1
+  operation_type_id: 1
+
+operation_72:
+  id: 72
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 2
+  operation_type_id: 1
+
+operation_73:
+  id: 73
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 3
+  operation_type_id: 1
+
+operation_74:
+  id: 74
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 4
+  operation_type_id: 1
+
+operation_75:
+  id: 75
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 5
+  operation_type_id: 1
+
+operation_76:
+  id: 76
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 6
+  operation_type_id: 1
+
+operation_77:
+  id: 77
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 7
+  operation_type_id: 1
+
+operation_78:
+  id: 78
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 8
+  operation_type_id: 1
+
+operation_79:
+  id: 79
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 9
+  operation_type_id: 1
+
+operation_80:
+  id: 80
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 10
+  operation_type_id: 1
+
+operation_81:
+  id: 81
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 1
+  operation_type_id: 1
+
+operation_82:
+  id: 82
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 2
+  operation_type_id: 1
+
+operation_83:
+  id: 83
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 3
+  operation_type_id: 1
+
+operation_84:
+  id: 84
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 4
+  operation_type_id: 1
+
+operation_85:
+  id: 85
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 5
+  operation_type_id: 1
+
+operation_86:
+  id: 86
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 6
+  operation_type_id: 1
+
+operation_87:
+  id: 87
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 7
+  operation_type_id: 1
+
+operation_88:
+  id: 88
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 8
+  operation_type_id: 1
+
+operation_89:
+  id: 89
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 9
+  operation_type_id: 1
+
+operation_90:
+  id: 90
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 10
+  operation_type_id: 1
+
+operation_91:
+  id: 91
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 1
+  operation_type_id: 1
+
+operation_92:
+  id: 92
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 2
+  operation_type_id: 1
+
+operation_93:
+  id: 93
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 3
+  operation_type_id: 1
+
+operation_94:
+  id: 94
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 4
+  operation_type_id: 1
+
+operation_95:
+  id: 95
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 5
+  operation_type_id: 1
+
+operation_96:
+  id: 96
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 6
+  operation_type_id: 1
+
+operation_97:
+  id: 97
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 7
+  operation_type_id: 1
+
+operation_98:
+  id: 98
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 8
+  operation_type_id: 1
+
+operation_99:
+  id: 99
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 9
+  operation_type_id: 1
+
+operation_100:
+  id: 100
+  amount: 100
+  odate: 2023-07-01 00:00:00
+  description: MyString
+  category_id: 10
+  operation_type_id: 1

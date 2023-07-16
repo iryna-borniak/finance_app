@@ -1,0 +1,31 @@
+<tr data-search-target="category">
+  <td><%= index %></td>
+
+  <td data-title="<%= category.name %>"><%= category.name %></td>
+
+  <td><%= category.description %></td>
+
+  <td>
+    <div class="d-flex">
+      <%= link_to category_path(category), 
+                  class: "btn 
+                          btn-light 
+                          shadow-sm 
+                          border 
+                          px-4 
+                          me-2" do %>
+                  <i class="fa-solid fa-pen-to-square"></i>
+      <% end %>
+
+      <%= button_to category_path(category), 
+                    method: :delete, 
+                    class: "btn 
+                            btn-light 
+                            border 
+                            shadow-sm 
+                            px-4" do %>
+                    <i class="fa-solid fa-xmark"></i>
+      <% end %>
+    </div>
+  </td>
+</tr>

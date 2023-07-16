@@ -1,0 +1,41 @@
+<% content_for :page_title do %>  
+  <h1>Звіт за період: <%= @start_date %> - <%= @end_date %></h1>
+    <h2 class="border-bottom pb-4"><%= @operation_type_name %></h2>
+<% end %>
+
+<div class="row mx-2 py-5">
+  <div class="col 
+              col-md-10 
+              col-sm-12 
+              m-auto 
+              p-0">
+    <h4 class="text-primary-emphasis 
+              text-center 
+              mb-4">
+      Розподіл <%= @operation_type_case %> за період [По датам]
+    </h4>
+    <canvas id="myChart"></canvas>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('myChart');
+  const data = {
+    labels: <%= raw @items %>,
+    datasets: [{
+      label: 'babules',
+      data: <%= @amounts %>,
+      fill: false,
+      borderColor: 'rgb(75, 192, 192)',
+      tension: 0.1
+    }]
+  };
+
+  const config = {
+    type: 'line',
+    data: data,
+  };
+
+  const myChart = new Chart(ctx, config);
+</script>

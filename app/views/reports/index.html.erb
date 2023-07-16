@@ -1,0 +1,21 @@
+<% content_for :page_title do %>
+  <h2>Генератор звітів</h2>
+<% end %>
+
+<div class="row             
+            bg-body-tertiary 
+            border rounded 
+            p-4 
+            mx-2">
+  <%= render "form" %>
+</div>
+
+<% content_for :route_link do %>
+   <%= link_to "Назад", 
+                main_index_path, 
+                class: "btn 
+                        btn-primary 
+                        shadow-sm 
+                        border 
+                        px-4" %>
+<% end %>

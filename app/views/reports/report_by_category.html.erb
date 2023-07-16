@@ -1,0 +1,76 @@
+<% content_for :page_title do %>  
+  <h1>Звіт за період: <%= @start_date %> - <%= @end_date %></h1>
+    <h2 class="border-bottom pb-4"><%= @operation_type_name %></h2>
+<% end %>
+
+<div class="row mx-2 py-3">
+  <div class="col-4 ps-0">
+    <div class="table-responsive 
+                bg-body-tertiary 
+                border rounded 
+                p-3 
+                mb-4">
+      <table class="table 
+                    table-light 
+                    table-striped 
+                    table-hover 
+                    table-bordered">
+        <thead>
+          <tr>
+            <th>Категорія</th>
+            <th>Сума</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @report_data&.each do |element, amount| %>
+            <tr>
+              <td>
+                <%= element %>
+              </td>
+              <td>
+                <%= number_with_precision(amount, precision: 2) %>
+              </td>
+            </tr>
+          <% end %>
+          <tr class="fw-bold">
+            <td colspan="2" class="table-success">
+              Всього: <%= number_with_precision(@total, precision: 2) %> грн.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <div class="col-4 m-auto">
+    <h4 class="text-primary-emphasis text-center mb-4">
+      Розподіл <%= @operation_type_case %> за період
+    </h4>
+    <canvas id="myChart"></canvas>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('myChart');
+  const data = {
+    labels: <%= raw @items %>,
+    datasets: [{
+      label: 'babules',
+      data: <%= @amounts %>,
+      backgroundColor: [
+        'rgb(255, 99, 132)',
+        'rgb(54, 162, 235)',
+        'rgb(255, 205, 86)'
+      ],
+      hoverOffset: 4
+    }]
+  };
+
+  const config = {
+    type: 'pie',
+    data: data,
+  };
+
+  const myChart = new Chart(ctx, config);
+</script>

@@ -1,0 +1,39 @@
+uk:
+  activerecord:    
+    attributes:
+      operation:
+        category: "Категорія"
+        operation_type: "Тип операції"
+        amount: "Сума"
+        odate: "Дата"
+        description: "Опис"
+      category:
+        name: "Назва"
+        description: "Опис"
+    errors:
+      models:
+        operation:
+          attributes:
+            amount:
+              blank: "не може бути порожньою"
+              not_a_number: "має бути числом"
+              greater_than: "має бути більшою за %{count}"
+            odate:
+              blank: "не може бути порожньою"
+            description:
+              blank: "не може бути порожнім"
+            operation_type:
+              required: "обов'язковий"
+            category:
+              required: "обов'язкова"  
+        category:
+          attributes:
+            name:
+              blank: "не може бути порожньою"
+              taken: "вже використовується"
+            description:
+              blank: "не може бути порожнім"
+  errors:
+    prohibited: "заборонено"
+    save_operation: "Збереження операції"
+    save_category: "Збереження категорії"     

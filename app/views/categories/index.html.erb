@@ -1,0 +1,29 @@
+<% content_for :page_title do %>
+  <h1>Категорії витрат / доходів</h1>
+<% end %>
+
+<div class="row mx-2">
+  <div class="col p-0">
+    <div class="table-responsive 
+                bg-body-tertiary 
+                border 
+                rounded 
+                p-4">
+      <div data-controller="search">
+        <%= render "search_query" %>
+
+        <%= render "table" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<% content_for :route_link do %>
+  <%= link_to "Додати нову категорію", 
+              new_category_path, 
+              class: "btn 
+                      btn-primary 
+                      shadow-sm 
+                      border", 
+              role: "button" %>
+<% end %>
