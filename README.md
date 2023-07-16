@@ -33,7 +33,7 @@ $ yarn
     <li>
 
 ```bash
-$ rails db:setup
+$ rails db:migrate
 ```
    </li>
 </ol>
