@@ -6,5 +6,5 @@ class Operation < ApplicationRecord
   validates :odate, presence: true
   validates :description, presence: true
 
-  paginates_per 2
+  paginates_per 4
 end

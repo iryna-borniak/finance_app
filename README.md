@@ -2,7 +2,7 @@
 
 *Personal Finance App*
 
-[DEMO LINK](https://RailRoadDev.github.io/finance_app/) 
+[DEMO LINK](https://iryna-borniak.my-clouds.net/) 
 
 ## 🔹Technologies
 
@@ -16,11 +16,11 @@
     <li>Minitest</li>       
 </ul>
 
-## 🔹Installing the gems
+## 🔹Installing the Gems
 ```bash
 $ bundle install
 ```
-## 🔹Installing JavaScript packages 
+## 🔹Installing JavaScript Packages 
 ```bash
 $ yarn
 ```
@@ -38,11 +38,11 @@ $ rails db:migrate
    </li>
 </ol>
 
-## 🔹Running the app
+## 🔹Running the App
 ```bash
 $ rails s
 ```
-## 🔹Running the tests
+## 🔹Running the Tests
 ```bash
 $ rails test
 ```

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_29_000717) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_17_221942) do
   create_table "categories", force: :cascade do |t|
     t.string "name"
     t.string "description"
@@ -36,6 +36,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_29_000717) do
     t.index ["operation_type_id"], name: "index_operations_on_operation_type_id"
   end
 
-  add_foreign_key "operations", "categories", on_delete: :cascade
-  add_foreign_key "operations", "operation_types", on_delete: :cascade
+  add_foreign_key "operations", "categories"
+  add_foreign_key "operations", "operation_types"
 end
