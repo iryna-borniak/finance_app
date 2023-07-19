@@ -18,7 +18,6 @@ class OperationsController < ApplicationController
 
   # GET /operations/1/edit
   def edit
-    reset_operation_attributes
   end
 
   # POST /operations or /operations.json
@@ -69,14 +68,6 @@ class OperationsController < ApplicationController
   # Only allow a list of trusted parameters through.
   def operation_params
     params.require(:operation).permit(:amount, :odate, :description, :category_id, :operation_type_id)
-  end
-
-  def reset_operation_attributes
-    @operation.amount = ''
-    @operation.odate = ''
-    @operation.description = ''
-    @operation.category_id = ''
-    @operation.operation_type_id = ''
   end
 
   def filtered_operations

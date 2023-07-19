@@ -18,7 +18,6 @@ class CategoriesController < ApplicationController
 
   # GET /categories/1/edit
   def edit
-    reset_category_attributes
   end
 
   # POST /categories or /categories.json
@@ -69,11 +68,6 @@ class CategoriesController < ApplicationController
   # Only allow a list of trusted parameters through.
   def category_params
     params.require(:category).permit(:name, :description)
-  end
-
-  def reset_category_attributes
-    @category.name = ''
-    @category.description = ''
   end
 
   def set_locale
